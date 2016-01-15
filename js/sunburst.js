@@ -2,7 +2,7 @@
  * Created by Easwar Raju on 14-Jan-16.
  */
 
-var simpleSunburstChart = function(data, keyAttribute){
+var simpleSunburstChart = function(data, keyAttribute, containerId){
     var width = 500,
         height = 400,
         radius = (Math.min(width, height) / 2) - 10;
@@ -24,7 +24,7 @@ var simpleSunburstChart = function(data, keyAttribute){
         .innerRadius(function(d) { return Math.max(0, y(d.y)); })
         .outerRadius(function(d) { return Math.max(0, y(d.y + d.dy)); });
 
-    var svgContainer = d3.select("body").append("svg")
+    var svgContainer = d3.select("#" + containerId).append("svg")
         .attr("width", width)
         .attr("height", height)
         .append("g")
