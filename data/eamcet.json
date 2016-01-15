@@ -1,0 +1,161 @@
+{
+  "name":"EAMCET",
+  "children": [
+    {
+      "name": "MPC",
+      "children": [
+        {
+          "name": "Maths",
+          "children": [
+            {
+              "name": "Algebra",
+              "children": [
+                {"name": "QuadraticEquations", "size": 3938},
+                {"name": "QuadraticExpressions", "size": 3812}
+              ]
+            },
+            {
+              "name": "CoordinateGeometry",
+              "children": [
+                {"name": "Circles", "size": 3534},
+                {"name": "Parabola", "size": 5731},
+                {"name": "Ellipses", "size": 7840}
+              ]
+            },
+            {
+              "name": "Calculus",
+              "children": [
+                {"name": "Differentiation", "size": 7074},
+                {"name": "Integration", "size": 7074}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "children": [
+            {
+              "name": "CorePhysics",
+              "children": [
+                {"name": "Measurements", "size": 1983},
+                {"name": "Kinematics", "size": 2047},
+                {"name": "Dynamics", "size": 1375}
+              ]
+            },
+            {
+              "name": "AdvancedPhysics",
+              "children": [
+                {"name": "Light", "size": 1983},
+                {"name": "Sound", "size": 2047},
+                {"name": "Gravity", "size": 1375}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "children": [
+            {
+              "name": "Introduction",
+              "children": [
+                {"name": "AtomicTheory", "size": 721},
+                {"name": "PeriodicElements", "size": 4294},
+                {"name": "Stoichiometry", "size": 9800}
+              ]
+            },
+            {
+              "name": "InorganiChemistry",
+              "children": [
+                {"name": "SaltAnalysis", "size": 721}
+              ]
+            },
+            {
+              "name": "OrganiChemistry",
+              "children": [
+                {"name": "CarbonCompounds", "size": 8751}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "BIPC",
+      "children": [
+        {
+          "name": "Biology",
+          "children": [
+            {
+              "name": "CellularBiology",
+              "children": [
+                {"name": "Introduction", "size": 8028},
+                {"name": "AdvancedConcepts", "size": 1002}
+              ]
+            },
+            {
+              "name": "MolecularBiology",
+              "children": [
+                {"name": "Introduction", "size": 3534},
+                {"name": "MolecularTheory", "size": 5731},
+                {"name": "AdvancedConcepts", "size": 7840}
+              ]
+            },
+            {
+              "name": "Botany",
+              "children": [
+                {"name": "SingleCellPlants", "size": 5834},
+                {"name": "MultiCellOrganisms", "size": 6780}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Physics",
+          "children": [
+            {
+              "name": "CorePhysics",
+              "children": [
+                {"name": "Measurements", "size": 1983},
+                {"name": "Kinematics", "size": 2047},
+                {"name": "Dynamics", "size": 1375}
+              ]
+            },
+            {
+              "name": "AdvancedPhysics",
+              "children": [
+                {"name": "Light", "size": 1983},
+                {"name": "Sound", "size": 2047},
+                {"name": "Gravity", "size": 1375}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chemistry",
+          "children": [
+            {
+              "name": "Introduction",
+              "children": [
+                {"name": "AtomicTheory", "size": 721},
+                {"name": "PeriodicElements", "size": 4294},
+                {"name": "Stoichiometry", "size": 9800}
+              ]
+            },
+            {
+              "name": "InorganiChemistry",
+              "children": [
+                {"name": "SaltAnalysis", "size": 721}
+              ]
+            },
+            {
+              "name": "OrganiChemistry",
+              "children": [
+                {"name": "CarbonCompounds", "size": 8751}
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

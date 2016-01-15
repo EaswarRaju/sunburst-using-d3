@@ -6,15 +6,30 @@
 </head>
 <body>
     <h2>Simple suburst chart using D3</h2>
+
+    <p>
+        Below is a sample visualization of eamcet syllabus. Hover on each detail to view information.
+    </p>
+
+    <div id="eamcetChart"></div>
+
     <p>
         Below is a sample visualization of world cricket teams and scores of individuals in team. Hover on each detail to view information.
     </p>
+
+    <div id="cricketChart"></div>
+
     <script src="vendor/js/d3.min.js"></script>
     <script src="js/sunburst.js"></script>
+
     <script>
 
+        d3.json("data/eamcet.json", function(error, root) {
+            var eamcetSunburst = simpleSunburstChart(root, 'size', 'eamcetChart');
+        });
+
         d3.json("data/cricket.json", function(error, root) {
-            var cricketSunburst = simpleSunburstChart(root, 'runs');
+            var cricketSunburst = simpleSunburstChart(root, 'runs', 'cricketChart');
         });
 
     </script>
